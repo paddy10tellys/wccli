@@ -1,0 +1,18 @@
+installed cookie cutter
+$ pip3 install --user cookiecutter
+added export PATH=$HOME/.local/bin:$PATH to ~/.zshrc
+cloned cookiecutter-data-science
+$ cookiecutter https://github.com/drivendata/cookiecutter-data-science
+named it as wccli
+created a new virtualenvironment see https://www.youtube.com/watch?v=0cGltFJDUFM
+$ mkvirtualenv wccli
+installed python3-click into wccli
+$ sudo apt-get install python3-click
+installed binaryornot into wccli
+$ pip3 install binaryornot
+installed wordcounter.py with setup.py using 
+$ pip3 install --editable .
+copied in gettysburg.txt & ran
+$ wordcounter gettysburg.txt
+
+
