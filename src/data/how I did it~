@@ -1,0 +1,28 @@
+installed cookie cutter
+$ pip3 install --user cookiecutter
+added export PATH=$HOME/.local/bin:$PATH to ~/.zshrc
+cloned cookiecutter-data-science
+$ cookiecutter https://github.com/drivendata/cookiecutter-data-science
+named it as wccli
+created a new virtualenvironment see https://www.youtube.com/watch?v=0cGltFJDUFM
+$ mkvirtualenv wccli
+installed python3-click into wccli
+$ sudo apt-get install python3-click
+installed binaryornot into wccli
+$ pip3 install binaryornot
+installed wordcounter.py with setup.py using 
+$ pip3 install --editable .
+copied in gettysburg.txt & ran
+$ wordcounter gettysburg.txt
+cd ~/wccli
+$ git init
+$ git add .
+git commit
+create new repository called wccli at my github repo
+git remote set-url origin https://github.com/paddy10tellys/wccli.git
+git push origin master --force 
+nb user name is paddy10tellys p/w = **p1**c**
+
+
+
+

@@ -14,5 +14,29 @@ installed wordcounter.py with setup.py using
 $ pip3 install --editable .
 copied in gettysburg.txt & ran
 $ wordcounter gettysburg.txt
+cd ~/wccli
+$ git init
+$ git add .
+git commit
+create new repository called wccli at my github repo
+git remote set-url origin https://github.com/paddy10tellys/wccli.git
+git push origin master --force 
+nb user name is paddy10tellys p/w = **p1**c**
+
+_______________________________________________________________
+
+To restart at the beginning of the day
+
+% cd wcgui
+
+% lsvirtualenv	            # lists the virtual environments
+
+% workon wcgui            # ps workon is at the end of ~/.zshrc & points to to wcgui in ~/Envs  
+
+ % pip3 freeze >requirements.txt
+
+
+
+
 
 
