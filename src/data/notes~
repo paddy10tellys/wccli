@@ -36,20 +36,8 @@ To restart at the beginning of the day
 % cd src/data
 
 % python3 wordcounter.py gettysburg.txt 
-
-% cxfreeze wordcounter.py  
  
 % pip3 freeze >requirements.txt
-
-% cd dist
-
-move gettysburg.txt into dist
-
-% ./wordcounter gettysburg.txt      (nb note no .py just ./wordcounter)
-
-
-
-
 
 
 
